@@ -29,14 +29,14 @@ client recv payload and print it
 
 ### server
 args: addr:port
-''' 
+```
 $cargo run --bin helloserver 0.0.0.0:4322
-'''
+```
 
 ### client
 
 args: addr:port retries 
-''' 
+``` 
 $ cargo run --bin helloclient 127.0.0.1:4322 20
    Compiling powddos v0.1.0 (/home/igor/devel/job/ddospow/powddos)
     Finished dev [unoptimized + debuginfo] target(s) in 0.80s
@@ -140,4 +140,4 @@ payload:
     Jhonen Vasquez, Johnny the Homicidal Maniac
 
 
-'''
+```
