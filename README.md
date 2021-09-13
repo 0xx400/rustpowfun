@@ -1,0 +1,2 @@
+# rustpowfun
+rust pow fun 
